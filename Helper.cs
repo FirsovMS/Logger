@@ -3,17 +3,17 @@ using System.Xml.Serialization;
 
 namespace LoggingAPI
 {
-	internal static class Helper
-	{
-		public static string SerializeObject<T>(this T toSerialize)
-		{
-			XmlSerializer xmlSerializer = new XmlSerializer(toSerialize.GetType());
+    internal static class Helper
+    {
+        public static string SerializeObject<T>(this T toSerialize)
+        {
+            XmlSerializer xmlSerializer = new XmlSerializer(toSerialize.GetType());
 
-			using (StringWriter textWriter = new StringWriter())
-			{
-				xmlSerializer.Serialize(textWriter, toSerialize);
-				return textWriter.ToString();
-			}
-		}
-	}
+            using (StringWriter textWriter = new StringWriter())
+            {
+                xmlSerializer.Serialize(textWriter, toSerialize);
+                return textWriter.ToString();
+            }
+        }
+    }
 }

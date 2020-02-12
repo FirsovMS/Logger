@@ -1,13 +1,13 @@
 ﻿namespace LoggingAPI
 {
-	public enum Level
-	{
-		Trace,
-		Debug,
-		Info,
-		Warn,
-		Error,
-		Critical,
-		Fatal
-	}
+    public enum Level
+    {
+        Trace,
+        Debug,
+        Info,
+        Warn,
+        Error,
+        Critical,
+        Fatal
+    }
 }
