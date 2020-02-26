@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Xml.Serialization;
 
-namespace LoggingAPI
+namespace Logging
 {
     internal static class Helper
     {

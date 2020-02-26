@@ -1,4 +1,4 @@
-﻿namespace LoggingAPI
+﻿namespace Logging
 {
     public enum Level
     {

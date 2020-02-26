@@ -2,7 +2,7 @@
 using NLog;
 using System;
 
-namespace LoggingAPI
+namespace Logging
 {
     public static class Logger
     {
